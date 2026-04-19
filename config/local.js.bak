@@ -1,0 +1,35 @@
+/**
+ * Local environment settings
+ *
+ * Use this file to specify configuration settings for use while developing
+ * the app on your personal system.
+ *
+ * For more information, check out:
+ * https://sailsjs.com/docs/concepts/configuration/the-local-js-file
+ */
+
+module.exports = {
+
+  // Any configuration settings may be overridden below, whether it's built-in Sails
+  // options or custom configuration specifically for your app (e.g. Stripe, Sendgrid, etc.)
+
+port:8804,
+BACK_WEB_URL:"https://endpoint.smartcloze.com/",
+FRONT_WEB_URL:"https://app.smartcloze.com/",
+PAYMENT_INFO:{
+
+
+    "SECREATKEY":"sk_live_rKf7S9ssGRWVfZ7O8MXVe2Kd", //own secret k>
+    //"STRIPE_WEBHOOK_SECRET":"whsec_lBGz5TdGd5MEcPzII8O1h5f5WLTgTwJ9"
+ 
+},
+  TWILLIO_ACCOUNT_SID: 'AC2566b6a91044b8414ec0cd6bd78d12fa',
+  TWILLIO_AUTH_TOKEN: 'b098f08ba8a5bda105454fa1c6aa834b',
+  TWILLIO_NUMBER: '+18667161457',
+//ssl: {
+//    ca: require('fs').readFileSync(__dirname + '/keys/gd_bundle-g2-g1.crt'),
+  //  key: require('fs').readFileSync(__dirname + '/keys/privkey.pem'),
+    //cert: require('fs').readFileSync(__dirname + '/keys/fullchain.pem')
+  //},
+};
+
