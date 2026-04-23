@@ -12,7 +12,7 @@ var constant = require('../../config/local.js');
 var nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 
-var STRIPE_WEBHOOK_SECRET = constant.PAYMENT_INFO.STRIPE_WEBHOOK_SECRET; //"whsec_lBGz5TdGd5MEcPzII8O1h5f5WLTgTwJ9"
+var STRIPE_WEBHOOK_SECRET = constant.PAYMENT_INFO.STRIPE_WEBHOOK_SECRET; //""
 
 var stripe = require('stripe')(constant.PAYMENT_INFO.SECREATKEY);
 function constructStripeEvent(request) {
