@@ -19,13 +19,13 @@ FRONT_WEB_URL:"https://app.smartcloze.com/",
 PAYMENT_INFO:{
 
 
-    "SECREATKEY":"sk_live_rKf7S9ssGRWVfZ7O8MXVe2Kd", //own secret k>
-    //"STRIPE_WEBHOOK_SECRET":"whsec_lBGz5TdGd5MEcPzII8O1h5f5WLTgTwJ9"
+    "SECREATKEY":"", //own secret k>
+    //"STRIPE_WEBHOOK_SECRET":""
  
 },
-  TWILLIO_ACCOUNT_SID: 'AC2566b6a91044b8414ec0cd6bd78d12fa',
-  TWILLIO_AUTH_TOKEN: 'b098f08ba8a5bda105454fa1c6aa834b',
-  TWILLIO_NUMBER: '+18667161457',
+  TWILLIO_ACCOUNT_SID: '',
+  TWILLIO_AUTH_TOKEN: '',
+  TWILLIO_NUMBER: '',
 //ssl: {
 //    ca: require('fs').readFileSync(__dirname + '/keys/gd_bundle-g2-g1.crt'),
   //  key: require('fs').readFileSync(__dirname + '/keys/privkey.pem'),
